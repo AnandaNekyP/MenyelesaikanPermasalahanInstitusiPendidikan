@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 import random
 
+
 # Load the trained model, scaler, and min-max values
 minmax = pd.read_csv('data/min_max_values.csv')
 model = joblib.load('model/dropout_model.pkl')
